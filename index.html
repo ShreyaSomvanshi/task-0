@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="C:\Users\abhay\OneDrive\Desktop\New folder\style.css">
+    </head>
+    <body>
+        <div class="form-container">
+            <form>
+                <h1>Hogwarts registration form</h1>
+                <p>
+                    <label for="name">Name of the witch/wizard:</label>
+                    <input type="text" id="name" Placeholder="Name" required>
+                </p>
+                <p>
+                    <label for="Date">Date of birth:</label>                    
+                   <input type="date" required>
+                </p>
+               <p>
+                    <label for="quality">Which of the following best describes you:</label>
+                    <br>
+                    <input type="radio" id="quality" name="quality" required>Courageous                    
+                    <br>
+                    <input type="radio" id="quality" name="quality">Clever
+                    <br>
+                    <input type="radio" id="quality" name="quality">Compassionate
+                    <br>
+                    <input type="radio" id="quality" name="quality">Cunning
+                </p>
+                <p>
+                    <label for="house">Which of the following houses would you want to be in:</label>
+                    <br>
+                    <input type="radio" id="house" name="house" required>Gryffindor                 
+                    <br>
+                    <input type="radio" id="house" name="house">Ravenclaw
+                    <br>
+                    <input type="radio" id="house" name="house">Hufflepuf
+                    <br>
+                    <input type="radio" id="house" name="house">Slytherin
+                </p>
+                <p>
+                    <label for="muggle">Is any of your parent a witch or wizard?:</label>
+                    <br>
+                    <input type="radio" id="muggle" name="muggle" required>Yes
+                    <br>
+                    <input type="radio" id="muggle" name="muggle">No
+                    <br>
+                </p>
+                <p>
+                    <label for="pet">Do you wish to bring a pet?:</label>
+                    <br>
+                    <input type="radio" id="pet" name="pet" required>Yes
+                    <br>
+                    <input type="radio" id="pet" name="pet">No
+                    <br>
+                </p>
+                <p class="pet">
+                    <label for="pet-choice">Select your pet of choice(optional):</label>
+                    <br>
+                    <select id="pet-choice">
+                        <option value="0">Select</option>
+                        <option value="1">Owl</option>
+                        <option value="2">Cat</option>
+                        <option value="3">Toad</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="Declaration">Declaration:</label>
+                    <br>
+                    <input type="checkbox" required>I hereby declare I will not use what I learn at Hogwarts school of witchcraft and wizardry outside it's premises.
+                </p>
+                <p>
+                    <center><input type="submit" value="register"></center>
+                </p>
+        </form>
+        </div>
+    </body>
+</html>
