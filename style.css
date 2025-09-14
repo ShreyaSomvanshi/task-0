@@ -1,0 +1,71 @@
+.form-container {
+    display: grid;
+    grid-auto-columns: 30%;
+    padding: 2rem;
+    margin-left: 35%;
+}
+.form-container:hover{
+    margin-left: 35%;
+}
+h1{
+    margin: auto;
+}
+form{
+    background-color: rgb(182, 159, 114);
+    color: rgb(32, 82, 32);
+    box-shadow: 0 0 0 20px rgb(182, 159, 114);
+    margin: auto;
+    transition: opacity 0.5s;
+}
+form:hover{
+    opacity: 0.9;
+}
+option{
+    color: rgb(32, 82, 32);
+}
+input[type="submit"]{
+    width: 50%;
+    height: 1.5rem;
+    background-color:rgb(182, 159, 114);
+    border-color: rgb(32, 82, 32);
+    border-radius: 2px;
+    color: rgb(32, 82, 32);
+    cursor: pointer;
+    margin: auto;
+}
+input[type="submit"]:hover{
+    background-color: rgb(32, 82, 32);
+    color: rgb(182, 159, 114);
+}
+input[type="text"]{
+    background-color: rgb(182, 159, 114);
+    width: 100%;
+    height: 1.5rem;
+    margin: auto;
+    border-radius: 2px;
+    border-color:  rgb(54, 40, 12);
+}
+body{
+    background-image: url('https://wallpaperbat.com/img/9768901-hogwarts-wallpaper-4k-harry-potter.jpg');
+    background-size: cover;
+}
+.pet{
+    cursor: pointer;
+    margin: auto;
+}
+input[type="radio"]{
+    cursor: pointer;
+}
+input[type="Date"]{
+    cursor: pointer;
+    background-color: rgb(182, 159, 114);
+    border-color:  rgb(54, 40, 12);
+}
+select{
+    width:100%;
+    height: 2rem;
+    background-color: rgb(182, 159, 114);
+}
+input::placeholder{
+    color: rgb(54, 40, 12);
+}
